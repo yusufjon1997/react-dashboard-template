@@ -4,8 +4,8 @@ import { Navigate, Route, Routes } from 'react-router-dom'
 
 // import Register from 'pages/Auth/Register'
 const List = lazy(() => import('./pages/Products/List'));
-const Login = lazy(() => import('./pages/Auth/Login'))
-const Register = lazy(() => import('./pages/Auth/Register'))
+const Login = lazy(() => import('./pages/Auth/Login'));
+const Register = lazy(() => import('./pages/Auth/Register'));
 
 
 const Routers = () => {
